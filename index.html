@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taja khabar</title>
+</head>
+<link rel="stylesheet" href="./styles.css">
+<script src="./App.js" defer></script>
+<script src="https://kit.fontawesome.com/99063ff41f.js" crossorigin="anonymous"></script>
+<body>
+    <div class="big-logo">
+        <p>TAJA KHABAR</p>
+     </div>
+      <nav id="web-header">
+        <div class="news-logo">
+            <span class="taja">TAJA</span><span class="khabar">KHABAR</span>
+        </div>
+        <i class="fas fa-bars show-bar" id="show-bar"></i>
+        <div class="home-list hideBar">
+            <ul>
+                <i class="fa-solid fa-xmark" id="close-bar"></i>
+               <li><a href="#news-details">Home</a></li>
+               <li><a href="#">Photos</a></li>
+               <li><a href="#shareNews">Share News</a></li>
+               <li><a href="#main-contact">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="news-details">
+        <div class="newsupdate">
+           <p id="latest">latest News</p>
+        </div>
+      
+         <div class="newsupdate">
+             <p id="categoryNews">Select category</p>
+         </div>
+           <div class="newsupdate"  >
+
+             <p id="loadnews">Load Saved News</p>
+        </div>
+    </section>
+    <div id="all-category" class="hide-category">
+        <ul>
+            <li class="category-wise">Business</li>
+            <li class="category-wise">Sports</li>
+            <li class="category-wise">world</li>
+            <li class="category-wise">politics</li>
+            <li class="category-wise">Hatke</li>
+            <li class="category-wise">Science</li>
+            <li class="category-wise">Automobile</li>
+        </ul>
+    </div>
+
+    <div class="allNews">
+    <!-- <section class="news-display">
+       <div class="image-box">
+        <img src="https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2023/02_feb/1_wed/img_1675271578603_744.jpg?" alt="">
+       </div>
+       <div class="other-details">
+      <p class="authorname">Daisy Mowke</p>
+      <p class="title">Soundarya Sharma to star in song in Sajid Khan's next film: Report</p>
+        <p class="content">"Actor Aamir Ali, while dismissing rumours of dating actress Shamita Shetty, said, \"A friend of mine was there and  said Aamir."</p>
+        <a href="#" target="_blank" class="read-more">read more</a>
+        
+        <i class="fa-solid fa-download"></i>
+        <div class="date-like">
+            <p class="date">01 Feb 2023,Wednesday</p>
+            <i class="fa-solid fa-download"></i>
+            <i class="fa-solid fa-heart"></i>
+         </div>
+    </section> -->
+</div>
+<section>
+     <hr class="break-line">
+    <div class="contact-box">
+    <div class="heading-box">
+        <h1 class="contact-heading">CONTACT</h1>
+    </div>
+        <div id="main-contact">
+            <div class="our-contacts">
+                <h2 class="contact-head"> Contact Me</h2>
+               <p><i class="fa-solid fa-envelope"></i>prakash0719@gmail.com</p> 
+               <p><i class="fa-solid fa-phone"></i>Contact no : &nbsp +918800613088</p>
+                <div class="social-icons">
+                 <a  href="fackbook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                 <a  href="twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                 <a  href="instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                 <a  href="linkdin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <p class="Address"><Span>Address :</Span>(704) 455-8607
+                    6325 Pharr Mill Rd
+                    Harrisburg, North Carolina(NC), 28075</p>
+            </div>
+            <div class="details-customer">
+                <h2 class="share-news" id="shareNews">Share News</h2>
+                <label for="">Name</label>
+                <input type="text" name="name" class="name" placeholder="Full Name" required>
+                <label for="">Email</label>
+                <input type="email" name="email" placeholder="Your Email" required>
+               <label for="">News Details</label>
+               <textarea name="Message" id="textarea" cols="30" rows="10" placeholder="Details" required></textarea>
+               <label for="">Add News Image</label>
+               <input type="file">
+               <button class="submit sub-btn">Submit</button>
+            </div>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
 
